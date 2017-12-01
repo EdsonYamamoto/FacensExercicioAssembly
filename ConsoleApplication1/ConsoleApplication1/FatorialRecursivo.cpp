@@ -11,6 +11,8 @@ public:
 private:
 
 };
+
+
 int Recursivo::fatorialRecursivo1(int num)
 {
 	int n = num;
@@ -104,6 +106,7 @@ void Recursivo::Exercicio2Recursivo()
 
 	printf("Resultado: %i\n", res);
 	getchar();
+	return;
 }
 void Recursivo::Exercicio1Recursivo()
 {
@@ -197,7 +200,8 @@ int Recursivo::fatorialRecursivo(int num)
 int main()
 {
 	Recursivo recursivo;
-	//recursivo.Exercicio1Recursivo();
+	//recursivo.teste();
+	//recursivo.deltaBascara(1, 2, 3);
 	recursivo.Exercicio2Recursivo();
 	recursivo.fatorialRecursivo(3);
 	recursivo.fatorialRecursivo1(6);

@@ -149,13 +149,19 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="DeltaBascara.cpp" />
+    <ClCompile Include="Fatorial.cpp" />
     <ClCompile Include="FatorialRecursivo.cpp" />
+    <ClCompile Include="Fibonnaci.cpp" />
+    <ClCompile Include="Multiplicacao.cpp" />
+    <ClCompile Include="ProvaFalavinha.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="troca_valores.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
